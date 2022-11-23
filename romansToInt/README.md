@@ -10,6 +10,6 @@ Output: 3
 Input: s = "LVIII"<br>
 Output: 58
 
-<img width="600px" src='./code.png'><br>
+<img width="900px" src='./code.png'><br>
 
 ### [LeetCode Submissions](https://leetcode.com/0xh3lt0n/)
