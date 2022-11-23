@@ -67,6 +67,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 const romans = "MCMXCIV"
 
 var romanToInt = function(s) {
+    //creating a object for comparison
     const romans = {
         "I": 1,
         "V": 5,
@@ -76,17 +77,23 @@ var romanToInt = function(s) {
         "D": 500,
         "M": 1000,
     }
-    
+    //accumulative variable that will hold the final value
     let romansCounter = 0;
     for (let i = 0; i < s.length; i++) {
+        //iterating over the string
+        /*using enhanced object properties to compare and retrieve values from the object
+        given the current element of the string*/
         let curr = romans[s[i]];
         let next = romans[s[i + 1]];
-        
+        /*the core logic of the problem. If the current element value is greater than the next element, then it will 
+        be add in the accumulative variable as a positive value, in the other hand, if the current element is lower than the next
+        it will be add in the accumulative variable as a negtive value*/
         if (curr >= next || i === s.length - 1) {
             romansCounter += curr;
         } else {
             romansCounter -= curr
         }
+        //the final value will be a result of the sum and subtraction of the values with the result value stored in the accumulative variable
     }
     return romansCounter;
 }
