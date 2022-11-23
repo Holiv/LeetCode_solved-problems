@@ -6,4 +6,5 @@ ______
 |  Problem |  Difficulty | Solution | Language |
 | ------------ | ------------ | ------------ | ------------ |
 |217. Contains Duplicate|Easy|[Code](./containsDuplicate/)| <div align='center'><img width="24px" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png"></div> |
+|13. Romans To Int|Easy|[Code](./romansToInt/)| <div align='center'><img width="24px" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png"></div> |
 
